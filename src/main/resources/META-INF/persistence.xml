@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+	version="2.1">
+
+	<persistence-unit name="PP2OA" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<class>org.sample.entities.Entity</class>
+		<properties>
+
+			<!-- <property name="hibernate.dialect" value="br.ufpa.biod.utils.SQLiteDialect" />
+			<property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC" />
+			<property
+			name="javax.persistence.jdbc.url" value="jdbc:sqlite:./PP2OA.db" />
+			<property
+			name="javax.persistence.jdbc.user" value="" />
+			<property
+			name="javax.persistence.jdbc.password" value="" />
+			<property
+			name="hibernate.connection.charSet" value="UTF-8" />
+			<property
+			name="hibernate.hbm2ddl.auto" value="update" />
+			<property
+			name="hibernate.event.merge.entity_copy_observer" value="allow" />
+			<property
+			name="hibernate.show_sql" value="false" />
+			<property name="hibernate.format_sql"
+			value="false" />
+			<property name="hibernate.generate_statistics" value="false" />
+			<property name="hibernate.use_sql_comments" value="false" /> -->
+
+
+		</properties>
+	</persistence-unit>
+</persistence>
