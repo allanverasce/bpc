@@ -32,7 +32,7 @@
   <p>java -jar Client_PP2OA.jar</p>
 
 ### Video Tutorial 
-[Tutorial](doc/BioPipelineCreator_Tutorial.mp4)
+You can download the Video [Tutorial](doc/BioPipelineCreator_Tutorial.mp4)
 
 ### See User Guide for details
-[User Guide](doc/UserGuide.pdf)
+You can download the User Guide [User Guide](doc/UserGuide.pdf)
