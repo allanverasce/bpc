@@ -38,7 +38,5 @@ You can download the Video [Tutorial](doc/BioPipelineCreator_Tutorial.mp4)
 You can download the User Guide [User Guide](doc/UserGuide.pdf)
 
 ### Screenshots
-<img src="screenshots/AddTool.png" alt="AddTool" width="300" height="200" />
-<img src="screenshots/CreateProject.png" alt="CreateProject" width="300" height="200" />
-<img src="screenshots/MainWindow.png" alt="MainWindow" width="300" height="200" />
+<img src="screenshots/AddTool.png" alt="AddTool" width="300" height="200" /> <img src="screenshots/CreateProject.png" alt="CreateProject" width="300" height="200" /> <img src="screenshots/MainWindow.png" alt="MainWindow" width="300" height="200" />
 
