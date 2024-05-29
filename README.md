@@ -10,17 +10,17 @@
 
 ### Quick Guide for the Impatient
 - System Update
-sudo apt update
-sudo apt upgrade
+<p>sudo apt update</p>
+<p>sudo apt upgrade</p>
 - Docker installation 
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
+<p>curl -fsSL https://get.docker.com -o get-docker.sh</p>
+<p>sudo sh get-docker.sh</p>
 - Add your user to the "docker" group
-sudo usermod -aG docker $USER
+<p>sudo usermod -aG docker $USER</p>
 - Create a Docker container
-docker create -it --name pp2oa -p 16002:16002 biodufpa/pp2oa
+<p>docker create -it --name pp2oa -p 16002:16002 biodufpa/pp2oa</p>
 - Start container
-docker start -i pp2oa
+<p>docker start -i pp2oa</p>
 
 ### Video Tutorial 
 [Tutorial](doc/BioPipelineCreator_Tutorial.mp4)
