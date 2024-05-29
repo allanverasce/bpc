@@ -8,4 +8,5 @@
 <image src="https://github.com/allanverasce/bpc/assets/25986290/ec57d394-ea98-4755-b6ea-e95acec67aa0" alt="Image" width="50"/>
 <image src="https://github.com/allanverasce/bpc/assets/25986290/0f2e354d-7a51-4b7a-b04a-fa8f9189d301" alt="Image" width="50"/>
 
-
+## Video Tutorial 
+- [Download do vídeo](doc/BioPipelineCreator_Tutorial.mp4)
