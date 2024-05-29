@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2" />
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1" />
+    <SyntheticProperty name="generateCenter" type="boolean" value="false" />
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0" />
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true" />
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1" />
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0" />
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false" />
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2" />
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+        <Group type="102" alignment="0" attributes="0">
+          <EmptySpace min="-2" pref="237" max="-2" attributes="0" />
+          <Component id="saveButton" min="-2" pref="150" max="-2" attributes="0" />
+          <EmptySpace min="-2" pref="100" max="-2" attributes="0" />
+          <Component id="removeButton" max="32767" attributes="0" />
+          <EmptySpace min="-2" pref="237" max="-2" attributes="0" />
+        </Group>
+        <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0" />
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+        <Group type="102" alignment="0" attributes="0">
+          <Component id="jPanel1" min="-2" max="-2" attributes="0" />
+          <EmptySpace min="-2" pref="12" max="-2" attributes="0" />
+          <Group type="103" groupAlignment="3" attributes="0">
+            <Component id="saveButton" alignment="3" min="-2" pref="35" max="-2" attributes="0" />
+            <Component id="removeButton" alignment="3" min="-2" pref="35" max="-2" attributes="0" />
+          </Group>
+          <EmptySpace pref="12" max="32767" attributes="0" />
+        </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" attributes="0">
+              <EmptySpace pref="7" max="32767" attributes="0" />
+              <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="750" max="-2" attributes="0" />
+                      <EmptySpace type="separate" max="-2" attributes="0" />
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                        <Component id="upButton" pref="104" max="32767" attributes="0" />
+                        <Component id="downButton" max="32767" attributes="0" />
+                      </Group>
+                    </Group>
+                    <Component id="jPanel2" min="-2" max="-2" attributes="0" />
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0" />
+                </Group>
+                <Group type="102" alignment="1" attributes="0">
+                  <Component id="filler1" min="-2" max="-2" attributes="0" />
+                  <EmptySpace min="-2" pref="143" max="-2" attributes="0" />
+                </Group>
+              </Group>
+            </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+            <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel2" min="-2" pref="297" max="-2" attributes="0" />
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0" />
+                  <Component id="upButton" min="-2" max="-2" attributes="0" />
+                  <EmptySpace min="-2" pref="41" max="-2" attributes="0" />
+                  <Component id="downButton" min="-2" max="-2" attributes="0" />
+                  <EmptySpace min="0" pref="0" max="-2" attributes="0" />
+                  <Component id="filler1" min="-2" max="-2" attributes="0" />
+                </Group>
+                <Component id="jScrollPane1" min="-2" pref="187" max="-2" attributes="0" />
+              </Group>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0" />
+            </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true" />
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout" />
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="parameterTable">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel"
+                  editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="2" rowCount="0">
+                    <Column editable="true" title="Parameter" type="java.lang.String" />
+                    <Column editable="true" title="Value" type="java.lang.String" />
+                  </Table>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader"
+                  editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="false" resizingAllowed="true" />
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0" />
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Component id="executablePathLabel" alignment="0" min="-2" max="-2"
+                      attributes="0" />
+                    <Component id="parameterLabel" alignment="0" min="-2" max="-2" attributes="0" />
+                    <Component id="projectNameLabel" alignment="0" min="-2" max="-2" attributes="0" />
+                    <Component id="fileTypeLabel" alignment="0" min="-2" max="-2" attributes="0" />
+                    <Component id="expectedLabel" alignment="0" min="-2" max="-2" attributes="0" />
+                    <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Component id="selectToolLabel" alignment="1" min="-2" max="-2" attributes="0" />
+                      <Component id="toolNameLabel" alignment="1" min="-2" max="-2" attributes="0" />
+                    </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0" />
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                        <Component id="txtToolName" alignment="0" pref="0" max="32767"
+                          attributes="0" />
+                        <Component id="txtFileType" alignment="0" pref="0" max="32767"
+                          attributes="0" />
+                        <Component id="txtProjectName" alignment="0" pref="0" max="32767"
+                          attributes="0" />
+                        <Component id="txtExpectedFile" alignment="0" pref="0" max="32767"
+                          attributes="0" />
+                        <Component id="txtParameter" alignment="0" min="-2" pref="280" max="-2"
+                          attributes="0" />
+                        <Component id="txtExecutablePath" alignment="1" pref="0" max="32767"
+                          attributes="0" />
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0" />
+                      <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                            <Component id="parameterLabel1" min="-2" max="-2" attributes="0" />
+                            <EmptySpace min="-2" pref="15" max="-2" attributes="0" />
+                            <Component id="txtValue" min="-2" pref="266" max="-2" attributes="0" />
+                            <EmptySpace type="separate" max="-2" attributes="0" />
+                            <Component id="addButton" min="-2" pref="119" max="-2" attributes="0" />
+                          </Group>
+                          <Group type="102" attributes="0">
+                            <Component id="deleteProjectButton" min="-2" max="-2" attributes="0" />
+                            <EmptySpace max="32767" attributes="0" />
+                            <Component id="botPanel" min="-2" max="-2" attributes="0" />
+                          </Group>
+                        </Group>
+                        <Component id="shouldCreateOutputDirectory" min="-2" max="-2" attributes="0" />
+                      </Group>
+                      <EmptySpace pref="25" max="32767" attributes="0" />
+                    </Group>
+                    <Group type="102" alignment="0" attributes="0">
+                      <Component id="toolBox" min="-2" pref="124" max="-2" attributes="0" />
+                      <EmptySpace type="separate" max="-2" attributes="0" />
+                      <Component id="enableToolLabel" min="-2" max="-2" attributes="0" />
+                      <EmptySpace type="unrelated" max="-2" attributes="0" />
+                      <Component id="enableTool" min="-2" max="-2" attributes="0" />
+                      <EmptySpace type="separate" max="-2" attributes="0" />
+                      <Component id="resetButton" min="-2" max="-2" attributes="0" />
+                      <EmptySpace max="32767" attributes="0" />
+                      <Component id="deleteToolButton" min="-2" pref="145" max="-2" attributes="0" />
+                      <EmptySpace max="32767" attributes="0" />
+                    </Group>
+                  </Group>
+                </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="10" max="-2" attributes="0" />
+                  <Group type="103" groupAlignment="3" attributes="0">
+                    <Component id="toolBox" alignment="3" min="-2" max="-2" attributes="0" />
+                    <Component id="enableToolLabel" alignment="3" min="-2" max="-2" attributes="0" />
+                    <Component id="enableTool" alignment="3" min="-2" max="-2" attributes="0" />
+                    <Component id="resetButton" alignment="3" min="-2" max="-2" attributes="0" />
+                    <Component id="deleteToolButton" alignment="3" min="-2" max="-2" attributes="0" />
+                    <Component id="selectToolLabel" alignment="3" min="-2" max="-2" attributes="0" />
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0" />
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                        <Component id="txtToolName" alignment="3" min="-2" max="-2" attributes="0" />
+                        <Component id="toolNameLabel" alignment="3" min="-2" max="-2" attributes="0" />
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0" />
+                      <Group type="103" groupAlignment="3" attributes="0">
+                        <Component id="fileTypeLabel" alignment="3" min="-2" max="-2" attributes="0" />
+                        <Component id="txtFileType" alignment="3" min="-2" max="-2" attributes="0" />
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0" />
+                      <Group type="103" groupAlignment="3" attributes="0">
+                        <Component id="txtProjectName" alignment="3" min="-2" max="-2"
+                          attributes="0" />
+                        <Component id="projectNameLabel" alignment="3" min="-2" max="-2"
+                          attributes="0" />
+                        <Component id="deleteProjectButton" alignment="3" min="-2" max="-2"
+                          attributes="0" />
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0" />
+                      <Group type="103" groupAlignment="3" attributes="0">
+                        <Component id="txtExecutablePath" alignment="3" min="-2" max="-2"
+                          attributes="0" />
+                        <Component id="executablePathLabel" alignment="3" min="-2" max="-2"
+                          attributes="0" />
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0" />
+                      <Group type="103" groupAlignment="0" attributes="0">
+                        <Component id="shouldCreateOutputDirectory" alignment="0" min="-2" max="-2"
+                          attributes="0" />
+                        <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="expectedLabel" alignment="3" min="-2" max="-2"
+                            attributes="0" />
+                          <Component id="txtExpectedFile" alignment="3" min="-2" max="-2"
+                            attributes="0" />
+                        </Group>
+                      </Group>
+                    </Group>
+                    <Component id="botPanel" alignment="0" min="-2" max="-2" attributes="0" />
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0" />
+                  <Group type="103" groupAlignment="3" attributes="0">
+                    <Component id="parameterLabel" alignment="3" min="-2" max="-2" attributes="0" />
+                    <Component id="txtParameter" alignment="3" min="-2" max="-2" attributes="0" />
+                    <Component id="parameterLabel1" alignment="3" min="-2" max="-2" attributes="0" />
+                    <Component id="txtValue" alignment="3" min="-2" max="-2" attributes="0" />
+                    <Component id="addButton" alignment="3" min="-2" max="-2" attributes="0" />
+                  </Group>
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0" />
+                </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="txtToolName">
+              <Properties>
+                <Property name="minimumSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="enableToolLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enable Tool" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="enableTool">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" " />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="parameterLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Parameter" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="executablePathLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Executable Path" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtExecutablePath">
+              <Properties>
+                <Property name="minimumSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="selectToolLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Select Tool" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="toolBox">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener"
+                  parameters="java.awt.event.ActionEvent" handler="toolBoxActionPerformed" />
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String"
+                  value="&lt;ToolDto&gt;" />
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="addButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon"
+                  editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagens/add.png" />
+                </Property>
+                <Property name="text" type="java.lang.String" value="ADD" />
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener"
+                  parameters="java.awt.event.ActionEvent" handler="addButtonActionPerformed" />
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="toolNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Tool Name" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtParameter">
+              <Properties>
+                <Property name="minimumSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="resetButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon"
+                  editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagens/reload.png" />
+                </Property>
+                <Property name="text" type="java.lang.String" value="Reset to Default Value" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="projectNameLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Project Name" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtProjectName">
+              <Properties>
+                <Property name="minimumSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="parameterLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Value" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtValue">
+              <Properties>
+                <Property name="minimumSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="fileTypeLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="File Types" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="expectedLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Expected File" />
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtExpectedFile">
+              <Properties>
+                <Property name="minimumSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txtFileType">
+              <Properties>
+                <Property name="minimumSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+                <Property name="preferredSize" type="java.awt.Dimension"
+                  editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[304, 26]" />
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="deleteToolButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon"
+                  editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagens/delete.png" />
+                </Property>
+                <Property name="text" type="java.lang.String" value="Delete Tool" />
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="botPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border"
+                  editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder />
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                        <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0" />
+                          <Group type="103" groupAlignment="0" attributes="0">
+                            <Component id="activeBot" alignment="0" min="-2" pref="155" max="-2"
+                              attributes="0" />
+                            <Group type="102" alignment="0" attributes="0">
+                              <Component id="chatIdLabel" min="-2" max="-2" attributes="0" />
+                              <EmptySpace type="separate" max="-2" attributes="0" />
+                              <Component id="txtChatID" min="-2" pref="176" max="-2" attributes="0" />
+                            </Group>
+                          </Group>
+                        </Group>
+                        <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="102" max="-2" attributes="0" />
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0" />
+                        </Group>
+                      </Group>
+                      <EmptySpace pref="15" max="32767" attributes="0" />
+                    </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                    <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0" />
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0" />
+                      <EmptySpace min="-2" pref="9" max="-2" attributes="0" />
+                      <Component id="activeBot" min="-2" max="-2" attributes="0" />
+                      <EmptySpace type="separate" max="-2" attributes="0" />
+                      <Group type="103" groupAlignment="3" attributes="0">
+                        <Component id="chatIdLabel" alignment="3" min="-2" max="-2" attributes="0" />
+                        <Component id="txtChatID" alignment="3" min="-2" pref="26" max="-2"
+                          attributes="0" />
+                      </Group>
+                      <EmptySpace pref="7" max="32767" attributes="0" />
+                    </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JCheckBox" name="activeBot">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Active Telegram Bot" />
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="chatIdLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="ChatID" />
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="txtChatID">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Extra Option" />
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="deleteProjectButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon"
+                  editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/Imagens/delete.png" />
+                </Property>
+                <Property name="text" type="java.lang.String" value="Delete Project" />
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener"
+                  parameters="java.awt.event.ActionEvent"
+                  handler="deleteProjectButtonActionPerformed" />
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="shouldCreateOutputDirectory">
+              <Properties>
+                <Property name="text" type="java.lang.String"
+                  value="Need to create output directory" />
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener"
+                  parameters="java.awt.event.ActionEvent"
+                  handler="shouldCreateOutputDirectoryActionPerformed" />
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="upButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon"
+              editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagens/Up.png" />
+            </Property>
+            <Property name="text" type="java.lang.String" value="  UP    " />
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="downButton">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon"
+              editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Imagens/Down.png" />
+            </Property>
+            <Property name="text" type="java.lang.String" value="Down" />
+          </Properties>
+        </Component>
+        <Component class="javax.swing.Box$Filler" name="filler1">
+          <Properties>
+            <Property name="maximumSize" type="java.awt.Dimension"
+              editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[0, 32767]" />
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="classDetails" type="java.lang.String" value="Box.Filler.VerticalGlue" />
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="saveButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon"
+          editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagens/saveConfig.png" />
+        </Property>
+        <Property name="text" type="java.lang.String" value="Save" />
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener"
+          parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed" />
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="removeButton">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon"
+          editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagens/delete.png" />
+        </Property>
+        <Property name="text" type="java.lang.String" value="Remove Parameter" />
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

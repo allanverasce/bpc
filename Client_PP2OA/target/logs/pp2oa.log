@@ -1,0 +1,12 @@
+2024-03-09 10:16:29.209 [AWT-EventQueue-0] INFO  ufpa.biod.pp2oa.socket.ClientSocket - Trying to connect to server
+2024-03-09 10:16:29.210 [AWT-EventQueue-0] WARN  u.biod.pp2oa.utils.LoadProperties - Error loading properties file: ./config.properties (No such file or directory)
+2024-03-09 10:16:29.219 [AWT-EventQueue-0] INFO  ufpa.biod.pp2oa.socket.ClientSocket - Socket connection successful
+2024-03-09 10:16:29.219 [AWT-EventQueue-0] INFO  ufpa.biod.pp2oa.view.Main - Configuring panes
+2024-03-09 10:16:29.225 [AWT-EventQueue-0] INFO  ufpa.biod.pp2oa.view.Main - Panes configured
+2024-03-09 10:16:29.225 [AWT-EventQueue-0] INFO  ufpa.biod.pp2oa.view.Main - Saving initial position tools
+2024-03-09 10:16:29.227 [AWT-EventQueue-0] INFO  ufpa.biod.pp2oa.view.Main - Initial position tools saved
+2024-03-09 10:16:29.227 [AWT-EventQueue-0] INFO  ufpa.biod.pp2oa.view.Main - Refreshing projects
+2024-03-09 10:16:29.361 [AWT-EventQueue-0] INFO  ufpa.biod.pp2oa.view.Main - Projects refreshed
+2024-03-09 10:16:29.361 [AWT-EventQueue-0] INFO  ufpa.biod.pp2oa.view.Main - Activating tools
+2024-03-09 10:16:29.401 [AWT-EventQueue-0] INFO  ufpa.biod.pp2oa.view.Main - Tools activated
+2024-03-09 10:16:29.402 [AWT-EventQueue-0] INFO  u.b.p.c.main.RestoreActiveProject - Restore Active Project
