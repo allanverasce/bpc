@@ -8,7 +8,8 @@
 <image src="https://github.com/allanverasce/bpc/assets/25986290/ec57d394-ea98-4755-b6ea-e95acec67aa0" alt="Image" width="50"/>
 <image src="https://github.com/allanverasce/bpc/assets/25986290/0f2e354d-7a51-4b7a-b04a-fa8f9189d301" alt="Image" width="50"/>
 
-### Quick Guide for the Impatient
+### Quick Guide for the Impatient (Server and Client)
+#### Server
 * System Update
   <p>sudo apt update</p>
   <p>sudo apt upgrade</p>
@@ -26,5 +27,12 @@
 * Start container 
   <p>docker start -i pp2oa</p>
 
+#### Client
+* Running client
+  <p>java -jar Client_PP2OA.jar</p>
+
 ### Video Tutorial 
 [Tutorial](doc/BioPipelineCreator_Tutorial.mp4)
+
+### See User Guide for details
+[User Guide](doc/UserGuide.pdf)
