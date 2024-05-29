@@ -9,21 +9,21 @@
 <image src="https://github.com/allanverasce/bpc/assets/25986290/0f2e354d-7a51-4b7a-b04a-fa8f9189d301" alt="Image" width="50"/>
 
 ### Quick Guide for the Impatient
-# System Update
+##### System Update
 <p>sudo apt update</p>
 <p>sudo apt upgrade</p>
 
-# Docker installation
+##### Docker installation
 <p>curl -fsSL https://get.docker.com -o get-docker.sh</p>
 <p>sudo sh get-docker.sh</p>
 
-# Add your user to the "docker" group
+##### Add your user to the "docker" group
 <p>sudo usermod -aG docker $USER</p>
 
-# Create a Docker container
+##### Create a Docker container
 <p>docker create -it --name pp2oa -p 16002:16002 biodufpa/pp2oa</p>
 
-# Start container 
+##### Start container 
 <p>docker start -i pp2oa</p>
 
 ### Video Tutorial 
