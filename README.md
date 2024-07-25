@@ -40,3 +40,5 @@ You can download the [User Guide](doc/UserGuide.pdf)
 ### Screenshots
 <img src="screenshots/AddTool.png" alt="AddTool" width="300" height="200" /> <img src="screenshots/CreateProject.png" alt="CreateProject" width="300" height="200" /> <img src="screenshots/MainWindow.png" alt="MainWindow" width="300" height="200" />
 
+### Cite this article
+Maia Cordeiro, C., da Silva Moia, G., de Oliveira, M.S. et al. BioPipeline Creator—a user-friendly Java-based GUI for managing and customizing biological data pipelines. Sci Rep 14, 16572 (2024). https://doi.org/10.1038/s41598-024-67409-8
